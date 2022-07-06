@@ -1,7 +1,7 @@
 export const sortBy = ({ sortBy }, data) => {
-  if (sortBy === "HTOL") {
+  if (sortBy === "LTOH") {
     return [...data].sort((a, b) => a.price - b.price);
-  } else if (sortBy === "LTOH") {
+  } else if (sortBy === "HTOL") {
     return [...data].sort((a, b) => b.price - a.price);
   } else {
     return data;
