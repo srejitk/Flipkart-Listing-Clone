@@ -5,7 +5,7 @@ export const Card = ({
 }) => {
   const [liked, setLiked] = useState(false);
   return (
-    <div className="card w-80 m-4 cursor-pointer group relative rounded-sm shadow-sm flex flex-col items-start p-4">
+    <div className="card w-72 md:w-56 lg:w-80 m-4 cursor-pointer group relative rounded-sm shadow-sm flex flex-col items-start p-4">
       <FaHeart
         onClick={() => setLiked((prev) => !prev)}
         className={`absolute top-6 right-12 ${
@@ -17,7 +17,7 @@ export const Card = ({
         alt="product cover"
         className="w-full object-cover max-h-[20rem] rounded-sm"
       />
-      <div className="flex flex-col items-start w-full absolute bottom-0 bg-white pb-6 px-4 group-hover:pb-16 transition-[padding-bottom]">
+      <div className="flex flex-col items-start absolute bottom-0 bg-white pb-6 pr-4 group-hover:pb-16 transition-[padding-bottom]">
         {" "}
         <h1 className="font-semibold text-gray-500">{brand}</h1>
         <h2

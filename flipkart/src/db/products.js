@@ -1,6 +1,6 @@
 export const products = [
   {
-    title: "Printed Men Round Neck Red T-Shirt",
+    title: "Printed Men Round Neck Red T-Shirt Football Edition",
     cover:
       "https://rukminim1.flixcart.com/image/880/1056/kzllrbk0/t-shirt/p/c/j/m-db2560-688-nike-original-imagbks5pje9pghq.jpeg?q=50",
     brand: "Nike",
@@ -44,7 +44,7 @@ export const products = [
     size: ["M"],
   },
   {
-    title: "Boys Regular Fit Printed Casual Shirt",
+    title: "Boys Regular Fit Printed Casual Shirt Blue Shades",
     cover:
       "https://rukminim1.flixcart.com/image/880/1056/l3vxbbk0/shirt/a/8/q/-original-imagewpmgkmbgqtp.jpeg?q=50",
     brand: "Allen Solly",

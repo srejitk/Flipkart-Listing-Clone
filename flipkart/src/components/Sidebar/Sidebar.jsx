@@ -6,7 +6,7 @@ import { CategoryWrapper } from "../CategoryWrapper/CategoryWrapper";
 export const Sidebar = () => {
   const { filterState, filterDispatch } = useFilter();
   return (
-    <aside className="h-full w-5/12 flex flex-col bg-white shadow-sm mx-2">
+    <aside className="h-full lg:w-2/12 md:w-3/12 w-full flex flex-col bg-white shadow-sm mx-2">
       <div className="w-full flex justify-between px-4">
         <h1 className="font-medium">Filters</h1>
         <button
